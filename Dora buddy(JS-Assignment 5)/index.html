@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dora-buddy</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/cee2a3a2b0.js"crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navi">
+            <div class="avathar" ><img src="https://i.pinimg.com/originals/62/4e/72/624e724b53d084269e9e1949bc5fd84e.png" alt="img" class="imag " style="margin:4px 0px 4px 20px;"></div>
+            <div class="options">
+                <i class="fa-solid fa-user-plus" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-ellipsis-vertical" style="color: #ffffff;"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="display: flex;"> 
+        <div id="userList"></div>
+        <div class="messagebox">
+            <header class="messagebox-header">
+              <nav>
+                <div class="right">
+                  <div class="avathar">
+                    <img  class="imag " src="https://i.pinimg.com/originals/62/4e/72/624e724b53d084269e9e1949bc5fd84e.png"  alt="DOREMON"/>
+                  </div>
+                </div>
+              </nav>
+            </header>
+            <div class="messages">
+              <div class="my-message sms">
+                <div class="msg">hiii nobitha!!! kaise ho???</div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="others-message sms">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="msg">meh tik hu!! , thu batao.</div>
+              </div>
+              <div class="my-message sms">
+                <div class="msg">chalo dost se milte he!</div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="others-message sms">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="msg">ha tik he </div>
+              </div>
+              <div class="my-message sms">
+                <div class="msg">ha chalo!! </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="others-message sms">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="msg">ok chalo!</div>
+              </div>
+              
+            </div>
+
+            <footer class="messagebox-footer">
+              <input
+                type="text"
+                id="message-input"
+                placeholder="Enter the meggage here..."
+              />
+              <i class="fa-solid fa-paperclip"></i>
+              <i class="fa-solid fa-paper-plane"></i>
+            </footer>
+          </div>
+    </div>
+ 
+
+
+    <script src="./script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            userListCreation();
+        });
+    </script>
+
+</body>
+</html>
